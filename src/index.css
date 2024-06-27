@@ -1,0 +1,55 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(85, 236, 236, 0.731);
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  button {
+    border-radius: 80px;
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  button:after {
+    content: "";
+    background: #00ff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  input  {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+  }
+  
+  
